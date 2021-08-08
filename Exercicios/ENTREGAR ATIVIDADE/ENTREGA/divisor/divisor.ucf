@@ -1,0 +1,16 @@
+//entrada numerador
+net num(0) loc=P11;
+net num(1) loc=L3;
+net num(2) loc=K3;
+//entrada denominador
+net den(0) loc=B4;
+net den(1) loc=G3;
+net den(2) loc=F3;
+//saida inteiro
+net res(2) loc=M5;
+net res(1) loc=M11;
+net res(0) loc=P7;
+//saida resto
+net quo(2) loc=N4;
+net quo(1) loc=P4;
+net quo(0) loc=G1;

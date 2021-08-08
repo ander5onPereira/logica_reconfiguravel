@@ -1,0 +1,3 @@
+vhdl work "setSeg.vhd"
+vhdl work "meupacote.vhd"
+vhdl work "top.vhd"

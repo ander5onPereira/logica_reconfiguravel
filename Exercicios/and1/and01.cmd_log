@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/and1/and01.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/and1/and01.syr" 

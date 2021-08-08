@@ -1,0 +1,90 @@
+V3 56
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd 2018/07/02.18:38:39 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Clock.vhd 2018/07/02.18:33:26 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd 2018/07/02.18:33:26 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd 2018/07/02.18:42:26 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Meu_Pacote.vhd 2018/07/02.09:39:26 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Saida.vhd 2018/07/02.18:34:58 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd 2018/07/02.18:33:26 P.20131013
+FL /home/tartari/IseProjects/Circuito_Maquina_Lavar/Top.vhd 2018/07/02.18:42:45 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Centrifugacao.vhd 2018/07/02.12:13:30 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Clock.vhd 2018/07/02.12:37:03 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Enxague.vhd 2018/07/02.13:09:08 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Maquina_Estado.vhd 2018/07/02.11:35:21 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Maquina_Lavar.vhd 2018/06/20.15:13:05 P.20131013
+EN work/maquina_lavar 1530540060 \
+      FL C:/logica/Circuito_Maquina_Lavar/Maquina_Lavar.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/maquina_lavar/arq 1530540061 \
+      FL C:/logica/Circuito_Maquina_Lavar/Maquina_Lavar.vhd EN work/maquina_lavar 1530540060
+FL C:/logica/Circuito_Maquina_Lavar/Meu_Pacote.vhd 2018/07/02.12:39:24 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Saida.vhd 2018/07/02.12:25:53 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Stand_BY.vhd 2018/07/02.13:09:03 P.20131013
+FL C:/logica/Circuito_Maquina_Lavar/Top.vhd 2018/07/02.12:50:09 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd 2019/07/07.00:41:24 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Clock.vhd 2018/07/02.18:33:26 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd 2019/07/07.00:00:13 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd 2018/07/02.18:42:26 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Meu_Pacote.vhd 2018/07/02.09:39:26 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Saida.vhd 2019/07/06.23:22:27 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd 2019/07/06.23:59:26 P.20131013
+FL C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Top.vhd 2018/07/02.18:42:44 P.20131013
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" 2019/07/07.00:41:24 P.20131013
+EN work/centrifugacao 1562625101 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/centrifugacao/arq 1562625102 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" \
+      EN work/centrifugacao 1562625101
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" 2019/07/08.19:31:25 P.20131013
+EN work/clock 1562625093 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clock/arq 1562625094 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" \
+      EN work/clock 1562625093
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" 2019/07/07.00:00:13 P.20131013
+EN work/enxague 1562625099 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/enxague/arq 1562625100 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" \
+      EN work/enxague 1562625099
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" 2018/07/02.18:42:26 P.20131013
+EN work/maquina_estado 1562625095 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/maquina_estado/arq 1562625096 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" \
+      EN work/maquina_estado 1562625095
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd" 2018/07/02.09:39:26 P.20131013
+PH work/meu_pacote 1562625092 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181 CD clock CD maquina_estado CD stand_by \
+      CD enxague CD centrifugacao CD saida
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" 2019/07/06.23:22:27 P.20131013
+EN work/saida 1562625103 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/saida/arq 1562625104 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" \
+      EN work/saida 1562625103
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" 2019/07/06.23:59:26 P.20131013
+EN work/stand_by 1562625097 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/stand_by/arq 1562625098 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" \
+      EN work/stand_by 1562625097
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" 2018/07/02.18:42:44 P.20131013
+EN work/top 1562625105 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PH work/meu_pacote 1562625092 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/top/arq 1562625106 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" \
+      EN work/top 1562625105 AR work/clock/arq 1562625094 \
+      AR work/maquina_estado/arq 1562625096 AR work/stand_by/arq 1562625098 \
+      AR work/enxague/arq 1562625100 AR work/centrifugacao/arq 1562625102 \
+      AR work/saida/arq 1562625104

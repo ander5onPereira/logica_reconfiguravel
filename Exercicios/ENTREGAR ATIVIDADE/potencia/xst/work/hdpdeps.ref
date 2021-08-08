@@ -1,0 +1,38 @@
+V3 21
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/meupacote.vhd" 2019/05/03.19:05:42 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.vhd" 2019/05/03.19:26:55 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/setSeg.vhd" 2019/05/03.20:37:44 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/top.vhd" 2019/05/03.20:34:29 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.vhd" 2019/05/03.18:04:35 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/meupacote.vhd" 2019/05/05.16:07:40 P.20131013
+PH work/meupacote 1557083456 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/meupacote.vhd" \
+      PB ieee/std_logic_1164 1381692176 CD setSeg CD multplica
+PB work/meupacote 1557083457 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/meupacote.vhd" \
+      PH work/meupacote 1557083456
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/multplica.vhd" 2019/05/03.21:08:20 P.20131013
+AR work/multplica/arch 1556928549 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/multplica.vhd" \
+      EN work/multplica 1556928548
+EN work/potencia 0 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/multplica.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/potencia/arch 0 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/multplica.vhd" \
+      EN work/potencia 0
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/setSeg.vhd" 2019/05/03.20:37:44 P.20131013
+EN work/setSeg 1557083458 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/setSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/setSeg/arch 1557083459 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/setSeg.vhd" \
+      EN work/setSeg 1557083458
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/top.vhd" 2019/05/05.16:08:16 P.20131013
+EN work/top 1557083460 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/meupacote 1557083457
+AR work/top/arch 1557083461 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/potencia/top.vhd" \
+      EN work/top 1557083460 AR work/multplica/arch 1556928549 AR work/setSeg/arch 1557083459

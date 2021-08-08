@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o alarme_map.ncd alarme.ngd alarme.pcf 
+par -w -intstyle ise -ol high -t 1 alarme_map.ncd alarme.ncd alarme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alarme.twx alarme.ncd -o alarme.twr alarme.pcf 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o alarme_map.ncd alarme.ngd alarme.pcf 
+par -w -intstyle ise -ol high -t 1 alarme_map.ncd alarme.ncd alarme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alarme.twx alarme.ncd -o alarme.twr alarme.pcf 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o alarme_map.ncd alarme.ngd alarme.pcf 
+par -w -intstyle ise -ol high -t 1 alarme_map.ncd alarme.ncd alarme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alarme.twx alarme.ncd -o alarme.twr alarme.pcf -ucf basys.ucf 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/alarme/alarme.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o alarme_map.ncd alarme.ngd alarme.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "alarme.ngc" alarme.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o alarme_map.ncd alarme.ngd alarme.pcf 
+par -w -intstyle ise -ol high -t 1 alarme_map.ncd alarme.ncd alarme.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alarme.twx alarme.ncd -o alarme.twr alarme.pcf -ucf basys.ucf 
+bitgen -intstyle ise -f alarme.ut alarme.ncd 

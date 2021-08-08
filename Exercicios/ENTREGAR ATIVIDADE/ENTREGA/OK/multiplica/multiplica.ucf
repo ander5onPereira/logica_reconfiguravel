@@ -1,0 +1,27 @@
+//net a(3) loc=N3;//para 4bit
+net a(2) loc=E2; //para 3bit
+net a(1) loc=F3;//valor entrada binaria
+net a(0) loc=G3;
+
+//net b(3) loc=B4;//para 4bit
+net b(2) loc=K3; //para 3bit
+net b(1) loc=L3;
+net b(0) loc=P11;
+
+net prod(0) loc=M5;//selecao do display ativo
+net prod(1) loc=M11;
+net prod(2) loc=P7;
+net prod(3) loc=P6;
+net prod(4) loc= N5; //para 3bit
+net prod(5) loc= N4;  //para 3bit
+//net prod(6) loc= P4;//para 4bit
+//net prod(7) loc= G1;//para 4bit
+
+net bar(0) loc=L14;//saida setseg
+net bar(1) loc=H12;
+net bar(2) loc=N14;
+net bar(3) loc=N11;
+net bar(4) loc=P12;
+net bar(5) loc=L13;
+net bar(6) loc=M12;
+net bar(7) loc=N13;

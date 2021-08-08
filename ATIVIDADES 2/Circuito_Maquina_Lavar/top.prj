@@ -1,0 +1,8 @@
+vhdl work "Stand_BY.vhd"
+vhdl work "Saida.vhd"
+vhdl work "Meu_Pacote.vhd"
+vhdl work "Maquina_Estado.vhd"
+vhdl work "Enxague.vhd"
+vhdl work "Clock.vhd"
+vhdl work "Centrifugacao.vhd"
+vhdl work "Top.vhd"

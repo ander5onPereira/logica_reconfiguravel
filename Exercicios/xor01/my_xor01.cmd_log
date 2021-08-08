@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/xor01/my_xor01.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/xor01/my_xor01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 my_xor01.ngc my_xor01.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o my_xor01_map.ncd my_xor01.ngd my_xor01.pcf 
+par -w -intstyle ise -ol high -t 1 my_xor01_map.ncd my_xor01.ncd my_xor01.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml my_xor01.twx my_xor01.ncd -o my_xor01.twr my_xor01.pcf 
+bitgen -intstyle ise -f my_xor01.ut my_xor01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc my_xor.ucf -p xc3s100e-cp132-4 my_xor01.ngc my_xor01.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o my_xor01_map.ncd my_xor01.ngd my_xor01.pcf 
+par -w -intstyle ise -ol high -t 1 my_xor01_map.ncd my_xor01.ncd my_xor01.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml my_xor01.twx my_xor01.ncd -o my_xor01.twr my_xor01.pcf -ucf my_xor.ucf 
+bitgen -intstyle ise -f my_xor01.ut my_xor01.ncd 

@@ -1,0 +1,8 @@
+EN setseg NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/setSeg.vhd" sub00/vhpl03 1557080216
+EN top NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/top.vhd" sub00/vhpl02 1557080220
+AR top arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/top.vhd" sub00/vhpl05 1557080221
+AR setseg arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/setSeg.vhd" sub00/vhpl04 1557080217
+PB meupacote meupacote "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/meupacote.vhd" sub00/vhpl01 1557080215
+EN seletdisplay NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/seletDisplay.vhd" sub00/vhpl06 1557080218
+PH meupacote NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/meupacote.vhd" sub00/vhpl00 1557080214
+AR seletdisplay arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hexadecial/seletDisplay.vhd" sub00/vhpl07 1557080219

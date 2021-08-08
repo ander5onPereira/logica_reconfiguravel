@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/GIT/logica-reconfiguravel/Exercicios/greater/tb_gt_isim_beh.exe" -prj "D:/GIT/logica-reconfiguravel/Exercicios/greater/tb_gt_beh.prj" "work.tb_gt" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/GIT/Logica Reconfiguravel/atividade01/atividade01/porta_and.xst" -ofn "D:/GIT/Logica Reconfiguravel/atividade01/atividade01/porta_and.syr" 
+xst -intstyle ise -ifn "D:/GIT/Logica Reconfiguravel/atividade01/atividade01/porta_and.xst" -ofn "D:/GIT/Logica Reconfiguravel/atividade01/atividade01/porta_and.syr" 

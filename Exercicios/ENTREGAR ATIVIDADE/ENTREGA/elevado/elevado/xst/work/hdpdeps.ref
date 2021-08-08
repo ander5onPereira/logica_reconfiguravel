@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.vhd 2019/05/06.19:37:34 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.vhd" 2019/05/06.20:03:30 P.20131013
+EN work/elevado 1557183814 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/elevado/arch 1557183815 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.vhd" \
+      EN work/elevado 1557183814

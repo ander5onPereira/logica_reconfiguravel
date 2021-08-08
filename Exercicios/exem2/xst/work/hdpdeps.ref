@@ -1,0 +1,6 @@
+V3 3
+FL D:/GIT/logica-reconfiguravel/Exercicios/exem2/ex2.vhd 2019/04/22.23:29:25 P.20131013
+EN work/ex2 1555986579 FL D:/GIT/logica-reconfiguravel/Exercicios/exem2/ex2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ex2/arch 1555986580 \
+      FL D:/GIT/logica-reconfiguravel/Exercicios/exem2/ex2.vhd EN work/ex2 1555986579

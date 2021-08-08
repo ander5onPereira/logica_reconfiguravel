@@ -1,0 +1,94 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/bcd/bcd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bcd.ucf -p xc3s100e-cp132-4 "bcd.ngc" bcd.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o bcd_map.ncd bcd.ngd bcd.pcf 
+par -w -intstyle ise -ol high -t 1 bcd_map.ncd bcd.ncd bcd.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bcd.twx bcd.ncd -o bcd.twr bcd.pcf -ucf bcd.ucf 
+bitgen -intstyle ise -f bcd.ut bcd.ncd 

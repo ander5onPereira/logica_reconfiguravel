@@ -1,0 +1,24 @@
+V3 13
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/meu_pacote.vhd" 2019/05/01.17:05:15 P.20131013
+PH work/meu_pacote 1556741153 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/meu_pacote.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 CD setSeg
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/setSeg.vhd" 2019/04/30.22:12:19 P.20131013
+AR work/projetsetSeg01/arch 1556671951 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/setSeg.vhd" \
+      EN work/projetsetSeg01 1556671950
+EN work/setSeg 1556673236 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/setSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/setSeg/arch 1556673237 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/setSeg.vhd" \
+      EN work/setSeg 1556673236
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/top.vhd" 2019/04/30.21:54:46 P.20131013
+EN work/top 0 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PH work/meu_pacote 1556741153
+AR work/top/arch 0 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/top.vhd" \
+      EN work/top 0 AR work/meu_pacote/arch 0
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.vhd" 2019/04/30.20:18:06 P.20131013

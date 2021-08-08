@@ -1,0 +1,2 @@
+vhdl isim_temp "ex4.vhd"
+vhdl isim_temp "tb_ex04.vhd"

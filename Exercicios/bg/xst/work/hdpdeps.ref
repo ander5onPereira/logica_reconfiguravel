@@ -1,0 +1,6 @@
+V3 3
+FL D:/GIT/logica-reconfiguravel/Exercicios/bg/b_g.vhd 2019/04/23.15:10:29 P.20131013
+EN work/b_g 1556043033 FL D:/GIT/logica-reconfiguravel/Exercicios/bg/b_g.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/b_g/arch 1556043034 \
+      FL D:/GIT/logica-reconfiguravel/Exercicios/bg/b_g.vhd EN work/b_g 1556043033

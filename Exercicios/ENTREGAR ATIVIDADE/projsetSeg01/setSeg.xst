@@ -1,0 +1,5 @@
+set -tmpdir "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/xst/projnav.tmp"
+set -xsthdpdir "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/projsetSeg01/xst"
+elaborate
+-ifn setSeg.prj
+-ifmt mixed

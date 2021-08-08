@@ -1,0 +1,387 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> Reading design: btn123.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "btn123.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "btn123"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : btn123
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/Detector-btn-123/btn123.vhd" in Library work.
+Architecture arch of Entity btn123 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <btn123> in library <work> (architecture <arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <btn123> in library <work> (Architecture <arch>).
+Entity <btn123> analyzed. Unit <btn123> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <btn123>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/Detector-btn-123/btn123.vhd".
+INFO:Xst:1799 - State wait_x1 is never reached in FSM <pr_st>.
+INFO:Xst:1799 - State wait_y1 is never reached in FSM <pr_st>.
+INFO:Xst:1799 - State wait_z1 is never reached in FSM <pr_st>.
+    Found finite state machine <FSM_0> for signal <pr_st>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 26                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | estado_a                                       |
+    | Power Up State     | estado_a                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <btn123> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <pr_st/FSM> on signal <pr_st[1:9]> with one-hot encoding.
+-----------------------
+ State    | Encoding
+-----------------------
+ wait_1   | 000000010
+ wait_2   | 000001000
+ wait_z   | 010000000
+ wait_x   | 000100000
+ wait_y   | 001000000
+ wait_z1  | unreached
+ wait_x1  | unreached
+ wait_y1  | unreached
+ estado_a | 000000001
+ estado_b | 000000100
+ estado_c | 000010000
+ estado_d | 100000000
+-----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <btn123> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block btn123, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : btn123.ngr
+Top Level Output File Name         : btn123
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 15
+#      GND                         : 1
+#      LUT2                        : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 11
+#      LUT4_L                      : 1
+# FlipFlops/Latches                : 9
+#      FDC                         : 8
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        8  out of    960     0%  
+ Number of Slice Flip Flops:              9  out of   1920     0%  
+ Number of 4 input LUTs:                 14  out of   1920     0%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of     83     9%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 9     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.648ns (Maximum Frequency: 215.146MHz)
+   Minimum input arrival time before clock: 4.415ns
+   Maximum output required time after clock: 5.776ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.648ns (frequency: 215.146MHz)
+  Total number of paths / destination ports: 26 / 9
+-------------------------------------------------------------------------
+Delay:               4.648ns (Levels of Logic = 3)
+  Source:            pr_st_FSM_FFd7 (FF)
+  Destination:       pr_st_FSM_FFd9 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: pr_st_FSM_FFd7 to pr_st_FSM_FFd9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  pr_st_FSM_FFd7 (pr_st_FSM_FFd7)
+     LUT2:I0->O            2   0.704   0.451  led<1>1 (led_1_OBUF)
+     LUT4:I3->O            1   0.704   0.424  pr_st_FSM_FFd9-In_SW1 (N11)
+     LUT4:I3->O            1   0.704   0.000  pr_st_FSM_FFd9-In (pr_st_FSM_FFd9-In)
+     FDP:D                     0.308          pr_st_FSM_FFd9
+    ----------------------------------------
+    Total                      4.648ns (3.011ns logic, 1.637ns route)
+                                       (64.8% logic, 35.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 19 / 9
+-------------------------------------------------------------------------
+Offset:              4.415ns (Levels of Logic = 3)
+  Source:            btn<0> (PAD)
+  Destination:       pr_st_FSM_FFd9 (FF)
+  Destination Clock: clock rising
+
+  Data Path: btn<0> to pr_st_FSM_FFd9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   1.218   1.057  btn_0_IBUF (btn_0_IBUF)
+     LUT4:I0->O            1   0.704   0.424  pr_st_FSM_FFd9-In_SW1 (N11)
+     LUT4:I3->O            1   0.704   0.000  pr_st_FSM_FFd9-In (pr_st_FSM_FFd9-In)
+     FDP:D                     0.308          pr_st_FSM_FFd9
+    ----------------------------------------
+    Total                      4.415ns (2.934ns logic, 1.481ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 7 / 3
+-------------------------------------------------------------------------
+Offset:              5.776ns (Levels of Logic = 2)
+  Source:            pr_st_FSM_FFd7 (FF)
+  Destination:       led<1> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: pr_st_FSM_FFd7 to led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  pr_st_FSM_FFd7 (pr_st_FSM_FFd7)
+     LUT2:I0->O            2   0.704   0.447  led<1>1 (led_1_OBUF)
+     OBUF:I->O                 3.272          led_1_OBUF (led<1>)
+    ----------------------------------------
+    Total                      5.776ns (4.567ns logic, 1.209ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.78 secs
+ 
+--> 
+
+Total memory usage is 4550900 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

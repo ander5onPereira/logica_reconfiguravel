@@ -1,0 +1,46 @@
+V3 27
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/led.vhd" 2019/05/05.20:27:31 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/meupacote.vhd" 2019/05/05.20:27:26 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/multplica.vhd" 2019/05/05.20:20:50 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/setSeg.vhd" 2019/05/03.20:37:44 P.20131013
+EN work/setSeg 1557098460 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/setSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/setSeg/arch 1557098461 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/setSeg.vhd" \
+      EN work/setSeg 1557098460
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/top.vhd" 2019/05/05.20:27:57 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/led.vhd" 2019/05/05.20:27:31 P.20131013
+EN work/led 1557184415 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/led.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/led/arch 1557184416 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/led.vhd" \
+      EN work/led 1557184415
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/meupacote.vhd" 2019/05/05.20:27:26 P.20131013
+PH work/meupacote 1557184411 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/meupacote.vhd" \
+      PB ieee/std_logic_1164 1381692176 CD deslocarEsq CD setSeg CD led
+PB work/meupacote 1557184412 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/meupacote.vhd" \
+      PH work/meupacote 1557184411
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/multplica.vhd" 2019/05/05.20:20:50 P.20131013
+EN work/deslocarEsq 1557184413 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/multplica.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/deslocarEsq/arch 1557184414 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/multplica.vhd" \
+      EN work/deslocarEsq 1557184413
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/top.vhd" 2019/05/06.20:10:03 P.20131013
+EN work/top 1557184417 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/meupacote 1557184412
+AR work/top/arch 1557184418 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/deslocarEsq/top.vhd" \
+      EN work/top 1557184417 AR work/deslocarEsq/arch 1557184414 AR work/led/arch 1557184416
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/meupacote.vhd" 2019/05/03.19:05:42 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.vhd" 2019/05/03.19:26:55 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/setSeg.vhd" 2019/05/03.20:37:44 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/top.vhd" 2019/05/05.15:38:39 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.vhd" 2019/05/03.18:04:35 P.20131013

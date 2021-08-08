@@ -1,0 +1,392 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/meupacote.vhd" in Library work.
+Architecture meupacote of Entity meupacote is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao.vhd" in Library work.
+Architecture arch of Entity divisao is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/erros.vhd" in Library work.
+Architecture arch of Entity erros is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/led.vhd" in Library work.
+Entity <led> compiled.
+Entity <led> (Architecture <arch>) compiled.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/top.vhd" in Library work.
+Architecture arch of Entity top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top> in library <work> (architecture <arch>) with generics.
+	N = 2
+
+Analyzing hierarchy for entity <divisao> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <erros> in library <work> (architecture <arch>) with generics.
+	N = 3
+
+Analyzing hierarchy for entity <led> in library <work> (architecture <arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <top> in library <work> (Architecture <arch>).
+	N = 2
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing Entity <divisao> in library <work> (Architecture <arch>).
+Entity <divisao> analyzed. Unit <divisao> generated.
+
+Analyzing generic Entity <erros> in library <work> (Architecture <arch>).
+	N = 3
+Entity <erros> analyzed. Unit <erros> generated.
+
+Analyzing Entity <led> in library <work> (Architecture <arch>).
+Entity <led> analyzed. Unit <led> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divisao>.
+    Related source file is "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao.vhd".
+Unit <divisao> synthesized.
+
+
+Synthesizing Unit <erros>.
+    Related source file is "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/erros.vhd".
+Unit <erros> synthesized.
+
+
+Synthesizing Unit <led>.
+    Related source file is "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/led.vhd".
+WARNING:Xst:737 - Found 7-bit latch for signal <saida>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <led> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/top.vhd".
+Unit <top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <6>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 7-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <saida_2> in Unit <led> is equivalent to the following 2 FFs/Latches, which will be removed : <saida_3> <saida_6> 
+WARNING:Xst:1710 - FF/Latch <saida_2> (without init value) has a constant value of 0 in block <led>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <top> ...
+
+Optimizing unit <led> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 13
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 2
+#      LUT4                        : 6
+#      VCC                         : 1
+# FlipFlops/Latches                : 4
+#      LD                          : 4
+# IO Buffers                       : 24
+#      IBUF                        : 4
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        6  out of    960     0%  
+ Number of 4 input LUTs:                 11  out of   1920     0%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of     83    28%  
+    IOB Flip Flops:                       4
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------+------------------------+-------+
+Clock Signal                              | Clock buffer(FF name)  | Load  |
+------------------------------------------+------------------------+-------+
+map04/saida_not0001(map04/saida_not0001:O)| NONE(*)(map04/saida_5) | 4     |
+------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 3.338ns
+   Maximum output required time after clock: 4.368ns
+   Maximum combinational path delay: 6.722ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'map04/saida_not0001'
+  Total number of paths / destination ports: 15 / 4
+-------------------------------------------------------------------------
+Offset:              3.338ns (Levels of Logic = 2)
+  Source:            b<1> (PAD)
+  Destination:       map04/saida_4 (LATCH)
+  Destination Clock: map04/saida_not0001 falling
+
+  Data Path: b<1> to map04/saida_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.218   1.108  b_1_IBUF (b_1_IBUF)
+     LUT4:I0->O            1   0.704   0.000  map04/saida_mux0000<1>1 (map04/saida_mux0000<1>)
+     LD:D                      0.308          map04/saida_1
+    ----------------------------------------
+    Total                      3.338ns (2.230ns logic, 1.108ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'map04/saida_not0001'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.368ns (Levels of Logic = 1)
+  Source:            map04/saida_5 (LATCH)
+  Destination:       le<5> (PAD)
+  Source Clock:      map04/saida_not0001 falling
+
+  Data Path: map04/saida_5 to le<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.420  map04/saida_5 (map04/saida_5)
+     OBUF:I->O                 3.272          le_5_OBUF (le<5>)
+    ----------------------------------------
+    Total                      4.368ns (3.948ns logic, 0.420ns route)
+                                       (90.4% logic, 9.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 19 / 6
+-------------------------------------------------------------------------
+Delay:               6.722ns (Levels of Logic = 3)
+  Source:            b<0> (PAD)
+  Destination:       erro (PAD)
+
+  Data Path: b<0> to erro
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.218   1.108  b_0_IBUF (b_0_IBUF)
+     LUT2:I0->O            1   0.704   0.420  map01/erro_cmp_eq00001 (erro_OBUF)
+     OBUF:I->O                 3.272          erro_OBUF (erro)
+    ----------------------------------------
+    Total                      6.722ns (5.194ns logic, 1.528ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.32 secs
+ 
+--> 
+
+Total memory usage is 4550932 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

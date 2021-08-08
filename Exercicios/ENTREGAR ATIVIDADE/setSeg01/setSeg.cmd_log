@@ -1,0 +1,92 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg/setSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc setSeg.ucf -p xc3s100e-cp132-4 "setSeg.ngc" setSeg.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o setSeg_map.ncd setSeg.ngd setSeg.pcf 
+par -w -intstyle ise -ol high -t 1 setSeg_map.ncd setSeg.ncd setSeg.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml setSeg.twx setSeg.ncd -o setSeg.twr setSeg.pcf -ucf setSeg.ucf 
+bitgen -intstyle ise -f setSeg.ut setSeg.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg01/setSeg.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg01/setSeg.syr" 

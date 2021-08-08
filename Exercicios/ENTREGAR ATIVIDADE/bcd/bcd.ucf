@@ -1,0 +1,21 @@
+net bar(0) loc=L14;
+net bar(1) loc=H12;
+net bar(2) loc=N14;
+net bar(3) loc=N11;
+net bar(4) loc=P12;
+net bar(5) loc=L13;
+net bar(6) loc=M12;
+net bar(7) loc=N13;
+
+net A(3) loc=G3;
+net A(2) loc=B4;
+net A(1) loc=K3;
+net A(0) loc=L3;
+
+net display(0) loc=F12;
+net display(1) loc=J12;
+net display(2) loc=M13;
+net display(3) loc=K14;
+
+net seletor(0) loc=E2;
+net seletor(1) loc=N3;

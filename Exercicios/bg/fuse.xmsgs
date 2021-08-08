@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/GIT/logica-reconfiguravel/Exercicios/bg/tb_b_g.vhd" Line 17: &lt;<arg fmt="%s" index="1">to_unsigned</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="622" delta="unknown" >"D:/GIT/logica-reconfiguravel/Exercicios/bg/tb_b_g.vhd" Line 17: Near <arg fmt="%s" index="1">std_logic_vector</arg> ; type conversion expression type cannot be determined uniquely
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"D:/GIT/logica-reconfiguravel/Exercicios/bg/tb_b_g.vhd" Line 18: &lt;<arg fmt="%s" index="1">to_unsigned</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="622" delta="unknown" >"D:/GIT/logica-reconfiguravel/Exercicios/bg/tb_b_g.vhd" Line 18: Near <arg fmt="%s" index="1">std_logic_vector</arg> ; type conversion expression type cannot be determined uniquely
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"D:/GIT/logica-reconfiguravel/Exercicios/bg/tb_b_g.vhd" Line 7: Unit &lt;<arg fmt="%s" index="1">arch</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

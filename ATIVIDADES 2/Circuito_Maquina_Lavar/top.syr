@@ -1,0 +1,625 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/top is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Top.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd".
+WARNING:HDLParsers:3607 - Unit work/top/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Top.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd".
+WARNING:HDLParsers:3607 - Unit work/centrifugacao is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd".
+WARNING:HDLParsers:3607 - Unit work/centrifugacao/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Clock.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd".
+WARNING:HDLParsers:3607 - Unit work/clock/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Clock.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd".
+WARNING:HDLParsers:3607 - Unit work/enxague is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd".
+WARNING:HDLParsers:3607 - Unit work/enxague/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd".
+WARNING:HDLParsers:3607 - Unit work/maquina_estado is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd".
+WARNING:HDLParsers:3607 - Unit work/maquina_estado/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd".
+WARNING:HDLParsers:3607 - Unit work/meu_pacote is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Meu_Pacote.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd".
+WARNING:HDLParsers:3607 - Unit work/saida is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Saida.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd".
+WARNING:HDLParsers:3607 - Unit work/saida/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Saida.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd".
+WARNING:HDLParsers:3607 - Unit work/stand_by is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd".
+WARNING:HDLParsers:3607 - Unit work/stand_by/arq is now defined in a different file.  It was defined in "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd", and is now defined in "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd".
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd" in Library work.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" in Library work.
+Entity <clock> compiled.
+Entity <clock> (Architecture <arq>) compiled.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" in Library work.
+Architecture arq of Entity maquina_estado is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" in Library work.
+Architecture arq of Entity stand_by is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" in Library work.
+Architecture arq of Entity enxague is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" in Library work.
+Architecture arq of Entity centrifugacao is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" in Library work.
+Architecture arq of Entity saida is up to date.
+Compiling vhdl file "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" in Library work.
+Architecture arq of Entity top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <clock> in library <work> (architecture <arq>) with generics.
+	N = 50000000
+
+Analyzing hierarchy for entity <maquina_estado> in library <work> (architecture <arq>) with generics.
+	timer = 12500000
+
+Analyzing hierarchy for entity <stand_by> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <enxague> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <centrifugacao> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <saida> in library <work> (architecture <arq>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top> in library <work> (Architecture <arq>).
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing generic Entity <clock> in library <work> (Architecture <arq>).
+	N = 50000000
+Entity <clock> analyzed. Unit <clock> generated.
+
+Analyzing generic Entity <maquina_estado> in library <work> (Architecture <arq>).
+	timer = 12500000
+Entity <maquina_estado> analyzed. Unit <maquina_estado> generated.
+
+Analyzing Entity <stand_by> in library <work> (Architecture <arq>).
+Entity <stand_by> analyzed. Unit <stand_by> generated.
+
+Analyzing Entity <enxague> in library <work> (Architecture <arq>).
+Entity <enxague> analyzed. Unit <enxague> generated.
+
+Analyzing Entity <centrifugacao> in library <work> (Architecture <arq>).
+WARNING:Xst:1610 - "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" line 26: Width mismatch. <vclock> has a width of 8 bits but assigned expression is 16-bit wide.
+Entity <centrifugacao> analyzed. Unit <centrifugacao> generated.
+
+Analyzing Entity <saida> in library <work> (Architecture <arq>).
+Entity <saida> analyzed. Unit <saida> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd".
+    Found 1-bit register for signal <clockstate1>.
+    Found 1-bit register for signal <clockstate2>.
+    Found 1-bit register for signal <clockstate3>.
+    Found 26-bit up counter for signal <i>.
+    Found 26-bit up counter for signal <j>.
+    Found 26-bit up counter for signal <k>.
+    Found 1-bit register for signal <v_clk1>.
+    Found 26-bit adder for signal <v_clk1$add0000> created at line 30.
+    Found 1-bit register for signal <v_clk2>.
+    Found 26-bit adder for signal <v_clk2$add0000> created at line 31.
+    Found 1-bit register for signal <v_clk3>.
+    Found 26-bit adder for signal <v_clk3$add0000> created at line 32.
+    Summary:
+	inferred   3 Counter(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+Unit <clock> synthesized.
+
+
+Synthesizing Unit <maquina_estado>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd".
+    Found finite state machine <FSM_0> for signal <pr_st>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Clock enable       | pr_st$cmp_ge0000          (positive)           |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | statea                                         |
+    | Power Up State     | statea                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 24-bit up counter for signal <count>.
+    Found 24-bit adder for signal <pr_st$addsub0000> created at line 24.
+    Found 24-bit comparator greatequal for signal <pr_st$cmp_ge0000> created at line 25.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <maquina_estado> synthesized.
+
+
+Synthesizing Unit <stand_by>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd".
+Unit <stand_by> synthesized.
+
+
+Synthesizing Unit <enxague>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd".
+Unit <enxague> synthesized.
+
+
+Synthesizing Unit <centrifugacao>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd".
+    Found 8-bit register for signal <vclock>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <centrifugacao> synthesized.
+
+
+Synthesizing Unit <saida>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd".
+Unit <saida> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd".
+Unit <top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 3
+# Counters                                             : 4
+ 24-bit up counter                                     : 1
+ 26-bit up counter                                     : 3
+# Registers                                            : 7
+ 1-bit register                                        : 6
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 24-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <map_Maquina_Estado/pr_st/FSM> on signal <pr_st[1:2]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ statea | 00
+ stateb | 01
+ statec | 10
+--------------------
+WARNING:Xst:1710 - FF/Latch <vclock_0> (without init value) has a constant value of 0 in block <map_Centrifugacao>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 4
+ 24-bit adder                                          : 1
+ 26-bit adder                                          : 3
+# Counters                                             : 4
+ 24-bit up counter                                     : 1
+ 26-bit up counter                                     : 3
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+# Comparators                                          : 1
+ 24-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <vclock_0> (without init value) has a constant value of 0 in block <centrifugacao>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <top> ...
+
+Optimizing unit <clock> ...
+
+Optimizing unit <centrifugacao> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 18.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 117
+ Flip-Flops                                            : 117
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top.ngr
+Top Level Output File Name         : top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 762
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 177
+#      LUT2                        : 85
+#      LUT3                        : 32
+#      LUT4                        : 23
+#      MUXCY                       : 227
+#      MUXF5                       : 2
+#      VCC                         : 1
+#      XORCY                       : 199
+# FlipFlops/Latches                : 117
+#      FD                          : 6
+#      FDC                         : 102
+#      FDCE                        : 5
+#      FDE                         : 3
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 2
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                      174  out of    960    18%  
+ Number of Slice Flip Flops:            117  out of   1920     6%  
+ Number of 4 input LUTs:                332  out of   1920    17%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of     83    13%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)           | Load  |
+-----------------------------------+---------------------------------+-------+
+clk                                | BUFGP                           | 110   |
+map_Clock/clockstate3              | NONE(map_Centrifugacao/vclock_7)| 7     |
+-----------------------------------+---------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 107   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.333ns (Maximum Frequency: 88.241MHz)
+   Minimum input arrival time before clock: 4.294ns
+   Maximum output required time after clock: 6.365ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 11.333ns (frequency: 88.241MHz)
+  Total number of paths / destination ports: 123757 / 115
+-------------------------------------------------------------------------
+Delay:               11.333ns (Levels of Logic = 51)
+  Source:            map_Maquina_Estado/count_1 (FF)
+  Destination:       map_Maquina_Estado/count_23 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: map_Maquina_Estado/count_1 to map_Maquina_Estado/count_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.622  map_Maquina_Estado/count_1 (map_Maquina_Estado/count_1)
+     LUT1:I0->O            1   0.704   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<1>_rt (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<1> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<2> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<3> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<4> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<5> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<6> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<7> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<8> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<9> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<10> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<11> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<12> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<13> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<14> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<15> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<16> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<17> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<18> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<19> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<20> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<21> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<21>)
+     MUXCY:CI->O           0   0.059   0.000  map_Maquina_Estado/Madd_pr_st_addsub0000_cy<22> (map_Maquina_Estado/Madd_pr_st_addsub0000_cy<22>)
+     XORCY:CI->O           1   0.804   0.595  map_Maquina_Estado/Madd_pr_st_addsub0000_xor<23> (map_Maquina_Estado/pr_st_addsub0000<23>)
+     LUT1:I0->O            1   0.704   0.000  map_Maquina_Estado/Mcompar_pr_st_cmp_ge0000_cy<9>_rt (map_Maquina_Estado/Mcompar_pr_st_cmp_ge0000_cy<9>_rt)
+     MUXCY:S->O           27   0.736   1.296  map_Maquina_Estado/Mcompar_pr_st_cmp_ge0000_cy<9> (map_Maquina_Estado/pr_st_cmp_ge0000)
+     LUT3:I2->O            1   0.704   0.000  map_Maquina_Estado/Mcount_count_lut<0> (map_Maquina_Estado/Mcount_count_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  map_Maquina_Estado/Mcount_count_cy<0> (map_Maquina_Estado/Mcount_count_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<1> (map_Maquina_Estado/Mcount_count_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<2> (map_Maquina_Estado/Mcount_count_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<3> (map_Maquina_Estado/Mcount_count_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<4> (map_Maquina_Estado/Mcount_count_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<5> (map_Maquina_Estado/Mcount_count_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<6> (map_Maquina_Estado/Mcount_count_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<7> (map_Maquina_Estado/Mcount_count_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<8> (map_Maquina_Estado/Mcount_count_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<9> (map_Maquina_Estado/Mcount_count_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<10> (map_Maquina_Estado/Mcount_count_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<11> (map_Maquina_Estado/Mcount_count_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<12> (map_Maquina_Estado/Mcount_count_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<13> (map_Maquina_Estado/Mcount_count_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<14> (map_Maquina_Estado/Mcount_count_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<15> (map_Maquina_Estado/Mcount_count_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<16> (map_Maquina_Estado/Mcount_count_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<17> (map_Maquina_Estado/Mcount_count_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<18> (map_Maquina_Estado/Mcount_count_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<19> (map_Maquina_Estado/Mcount_count_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<20> (map_Maquina_Estado/Mcount_count_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<21> (map_Maquina_Estado/Mcount_count_cy<21>)
+     MUXCY:CI->O           0   0.059   0.000  map_Maquina_Estado/Mcount_count_cy<22> (map_Maquina_Estado/Mcount_count_cy<22>)
+     XORCY:CI->O           1   0.804   0.000  map_Maquina_Estado/Mcount_count_xor<23> (map_Maquina_Estado/Mcount_count23)
+     FDC:D                     0.308          map_Maquina_Estado/count_23
+    ----------------------------------------
+    Total                     11.333ns (8.820ns logic, 2.513ns route)
+                                       (77.8% logic, 22.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'map_Clock/clockstate3'
+  Clock period: 2.630ns (frequency: 380.228MHz)
+  Total number of paths / destination ports: 12 / 8
+-------------------------------------------------------------------------
+Delay:               2.630ns (Levels of Logic = 2)
+  Source:            map_Centrifugacao/vclock_3 (FF)
+  Destination:       map_Centrifugacao/vclock_1 (FF)
+  Source Clock:      map_Clock/clockstate3 rising
+  Destination Clock: map_Clock/clockstate3 rising
+
+  Data Path: map_Centrifugacao/vclock_3 to map_Centrifugacao/vclock_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.706  map_Centrifugacao/vclock_3 (map_Centrifugacao/vclock_3)
+     LUT4:I0->O            1   0.704   0.000  map_Centrifugacao/vclock_mux0001<0>11 (map_Centrifugacao/vclock_mux0001<0>11)
+     MUXF5:I0->O           1   0.321   0.000  map_Centrifugacao/vclock_mux0001<0>1_f5 (map_Centrifugacao/vclock_mux0001<0>1)
+     FDR:D                     0.308          map_Centrifugacao/vclock_1
+    ----------------------------------------
+    Total                      2.630ns (1.924ns logic, 0.706ns route)
+                                       (73.2% logic, 26.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.294ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       map_Clock/clockstate2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to map_Clock/clockstate2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           108   1.218   1.286  rst_IBUF (rst_IBUF)
+     INV:I->O              3   0.704   0.531  map_Clock/rst_inv1_INV_0 (map_Clock/rst_inv)
+     FDE:CE                    0.555          map_Clock/clockstate3
+    ----------------------------------------
+    Total                      4.294ns (2.477ns logic, 1.817ns route)
+                                       (57.7% logic, 42.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'map_Clock/clockstate3'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              5.874ns (Levels of Logic = 3)
+  Source:            map_Centrifugacao/vclock_1 (FF)
+  Destination:       led<1> (PAD)
+  Source Clock:      map_Clock/clockstate3 rising
+
+  Data Path: map_Centrifugacao/vclock_1 to led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.566  map_Centrifugacao/vclock_1 (map_Centrifugacao/vclock_1)
+     LUT3:I2->O            1   0.704   0.000  map_Apresenta/led<1>2 (map_Apresenta/led<1>1)
+     MUXF5:I0->O           1   0.321   0.420  map_Apresenta/led<1>_f5 (led_1_OBUF)
+     OBUF:I->O                 3.272          led_1_OBUF (led<1>)
+    ----------------------------------------
+    Total                      5.874ns (4.888ns logic, 0.986ns route)
+                                       (83.2% logic, 16.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 18 / 7
+-------------------------------------------------------------------------
+Offset:              6.365ns (Levels of Logic = 3)
+  Source:            map_Maquina_Estado/pr_st_FSM_FFd1 (FF)
+  Destination:       led<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: map_Maquina_Estado/pr_st_FSM_FFd1 to led<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            10   0.591   1.057  map_Maquina_Estado/pr_st_FSM_FFd1 (map_Maquina_Estado/pr_st_FSM_FFd1)
+     LUT2:I0->O            1   0.704   0.000  map_Apresenta/led<1>1 (map_Apresenta/led<1>)
+     MUXF5:I1->O           1   0.321   0.420  map_Apresenta/led<1>_f5 (led_1_OBUF)
+     OBUF:I->O                 3.272          led_1_OBUF (led<1>)
+    ----------------------------------------
+    Total                      6.365ns (4.888ns logic, 1.477ns route)
+                                       (76.8% logic, 23.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.63 secs
+ 
+--> 
+
+Total memory usage is 4550924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

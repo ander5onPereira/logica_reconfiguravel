@@ -1,0 +1,5 @@
+NET clock LOC = B8; #CLK
+NET btn(1) LOC = A7; #BTN3
+NET btn(0) LOC = C11; #BTN1
+NET led(1) LOC = G1; #LD1
+NET led(0) LOC = M11;  #LD7

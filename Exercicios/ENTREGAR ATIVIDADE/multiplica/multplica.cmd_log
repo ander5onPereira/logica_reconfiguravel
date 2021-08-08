@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplica.ucf -p xc3s100e-cp132-4 "multplica.ngc" multplica.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o multplica_map.ncd multplica.ngd multplica.pcf 
+par -w -intstyle ise -ol high -t 1 multplica_map.ncd multplica.ncd multplica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml multplica.twx multplica.ncd -o multplica.twr multplica.pcf -ucf multiplica.ucf 
+bitgen -intstyle ise -f multplica.ut multplica.ncd 

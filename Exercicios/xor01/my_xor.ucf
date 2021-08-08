@@ -1,0 +1,5 @@
+net a(1) loc=B4;
+net a(0) loc=K3;
+net b(1) loc=L3;
+net b(0) loc=P11;
+net y loc=P4;

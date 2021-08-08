@@ -1,0 +1,9 @@
+V3 4
+FL D:/GIT/logica-reconfiguravel/Exercicios/Atividade01/b_g_Nbit.vhd 2019/04/28.23:31:43 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/Atividade01/b_g_Nbit.vhd" 2019/04/28.23:31:43 P.20131013
+EN work/b_g_Nbit 1556577280 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/Atividade01/b_g_Nbit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/b_g_Nbit/arch 1556577281 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/Atividade01/b_g_Nbit.vhd" \
+      EN work/b_g_Nbit 1556577280

@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Keiko-PC/Documents/ISEprojects/divisor/divisor.vhd 2019/05/06.18:01:11 P.20131013
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.vhd" 2019/05/06.18:01:11 P.20131013
+EN work/divisor 1557180967 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/divisor/arch 1557180968 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.vhd" \
+      EN work/divisor 1557180967

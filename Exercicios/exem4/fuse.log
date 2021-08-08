@@ -1,0 +1,18 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/GIT/logica-reconfiguravel/Exercicios/exem4/tb_ex04_isim_beh.exe -prj D:/GIT/logica-reconfiguravel/Exercicios/exem4/tb_ex04_beh.prj work.tb_ex04 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/GIT/logica-reconfiguravel/Exercicios/exem4/ex4.vhd" into library work
+Parsing VHDL file "D:/GIT/logica-reconfiguravel/Exercicios/exem4/tb_ex04.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture arch of entity ex4 [ex4_default]
+Compiling architecture arch of entity tb_ex04
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable D:/GIT/logica-reconfiguravel/Exercicios/exem4/tb_ex04_isim_beh.exe
+Fuse Memory Usage: 29392 KB
+Fuse CPU Usage: 561 ms

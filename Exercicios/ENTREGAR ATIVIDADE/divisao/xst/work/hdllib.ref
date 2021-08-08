@@ -1,0 +1,12 @@
+AR erros arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/erros.vhd" sub00/vhpl09 1557165148
+EN divisao NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao.vhd" sub00/vhpl00 1557165145
+EN led NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/led.vhd" sub00/vhpl10 1557165149
+EN erros NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/erros.vhd" sub00/vhpl08 1557165147
+AR led arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/led.vhd" sub00/vhpl11 1557165150
+EN divisao3b NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao3b.vhd" sub00/vhpl06 1557163816
+AR divisao arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao.vhd" sub00/vhpl01 1557165146
+AR divisao3b arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/divisao3b.vhd" sub00/vhpl07 1557163817
+EN top NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/top.vhd" sub00/vhpl04 1557165151
+AR top arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/top.vhd" sub00/vhpl05 1557165152
+PB meupacote meupacote "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/meupacote.vhd" sub00/vhpl03 1557165144
+PH meupacote NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/divisao/meupacote.vhd" sub00/vhpl02 1557165143

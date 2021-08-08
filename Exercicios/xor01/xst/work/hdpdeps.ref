@@ -1,0 +1,8 @@
+V3 3
+FL D:/GIT/logica-reconfiguravel/Exercicios/xor01/my_xor01.vhd 2019/04/23.19:07:05 P.20131013
+EN work/my_xor01 1556057240 \
+      FL D:/GIT/logica-reconfiguravel/Exercicios/xor01/my_xor01.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/my_xor01/arch 1556057241 \
+      FL D:/GIT/logica-reconfiguravel/Exercicios/xor01/my_xor01.vhd \
+      EN work/my_xor01 1556057240

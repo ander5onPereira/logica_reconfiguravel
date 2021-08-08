@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/clock_isim_beh.exe" -prj "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/clock_beh.prj" "work.clock" 

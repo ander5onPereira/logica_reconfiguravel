@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+display<0>     |displaySet<0>  |    8.426|
+display<0>     |displaySet<1>  |    7.803|
+display<0>     |displaySet<2>  |    8.392|
+display<0>     |displaySet<3>  |    7.774|
+display<1>     |displaySet<0>  |    8.539|
+display<1>     |displaySet<1>  |    8.398|
+display<1>     |displaySet<2>  |    8.922|
+display<1>     |displaySet<3>  |    8.369|
+option         |bar<0>         |    7.844|
+option         |bar<1>         |    9.388|
+option         |bar<2>         |    9.355|
+option         |bar<3>         |    8.590|
+option         |bar<4>         |    9.284|
+option         |bar<5>         |    8.534|
+option         |bar<6>         |    8.660|
+option         |bar<7>         |    9.640|
+sel<0>         |bar<0>         |    8.916|
+sel<0>         |bar<1>         |    9.507|
+sel<0>         |bar<2>         |    8.751|
+sel<0>         |bar<3>         |    8.922|
+sel<0>         |bar<4>         |    8.748|
+sel<0>         |bar<5>         |    9.959|
+sel<0>         |bar<6>         |    9.660|
+sel<1>         |bar<0>         |    7.603|
+sel<1>         |bar<1>         |    8.343|
+sel<1>         |bar<2>         |    7.852|
+sel<1>         |bar<3>         |    8.698|
+sel<1>         |bar<4>         |    8.487|
+sel<1>         |bar<5>         |    8.956|
+sel<1>         |bar<6>         |    9.581|
+sel<1>         |bar<7>         |    8.153|
+sel<2>         |bar<0>         |    8.389|
+sel<2>         |bar<1>         |    9.334|
+sel<2>         |bar<2>         |    8.904|
+sel<2>         |bar<3>         |    8.738|
+sel<2>         |bar<4>         |    9.054|
+sel<2>         |bar<5>         |    8.824|
+sel<2>         |bar<6>         |    9.423|
+sel<2>         |bar<7>         |    8.843|
+sel<3>         |bar<0>         |    8.175|
+sel<3>         |bar<1>         |    8.642|
+sel<3>         |bar<2>         |    8.980|
+sel<3>         |bar<3>         |    9.081|
+sel<3>         |bar<4>         |    8.680|
+sel<3>         |bar<5>         |    8.418|
+sel<3>         |bar<6>         |    9.051|
+sel<3>         |bar<7>         |    8.553|
+---------------+---------------+---------+
+
+
+Analysis completed Fri May 03 16:53:27 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4488 MB
+
+
+

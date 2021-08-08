@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/top</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Top.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/top/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Top.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/centrifugacao</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/centrifugacao/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Centrifugacao.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/enxague</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/enxague/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Enxague.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/maquina_estado</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/maquina_estado/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Maquina_Estado.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/meu_pacote</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Meu_Pacote.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/saida</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Saida.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/saida/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Saida.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/stand_by</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/stand_by/arq</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/Stand_BY.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">vclock</arg>&gt; has a width of <arg fmt="%d" index="4">8</arg> bits but assigned expression is <arg fmt="%d" index="5">16</arg>-bit wide.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">vclock_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">map_Centrifugacao</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">vclock_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">centrifugacao</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

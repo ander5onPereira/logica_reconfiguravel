@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/tb_p03_isim_beh.exe" -prj "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/tb_p03_beh.prj" "work.tb_p03" 

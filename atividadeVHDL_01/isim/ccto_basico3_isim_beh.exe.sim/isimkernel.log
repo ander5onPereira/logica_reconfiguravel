@@ -1,0 +1,29 @@
+Command line:
+   ccto_basico3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53516
+
+Tue Mar 26 23:23:04 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5331.82 Meg
+
+ Total Signals          : 8
+ Total Nets             : 8
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 368
+Total Line Count : 2
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5331.82 Meg
+
+Tue Mar 26 23:23:18 2019
+

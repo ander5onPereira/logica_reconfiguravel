@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\GIT\logica-reconfiguravel\ATIVIDADES 2\Detector-Seq-137\seq137.ncd
+OUTFILE=D:\GIT\logica-reconfiguravel\ATIVIDADES 2\Detector-Seq-137\seq137.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\GIT\logica-reconfiguravel\ATIVIDADES 2\Detector-Seq-137
+LICENSE=WebPack
+USER_INFO=179504511_180332158_0_034

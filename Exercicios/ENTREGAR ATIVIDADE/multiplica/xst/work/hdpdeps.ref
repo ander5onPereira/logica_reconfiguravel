@@ -1,0 +1,31 @@
+V3 15
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/meupacote.vhd" 2019/05/03.19:05:42 P.20131013
+PH work/meupacote 1557081522 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/meupacote.vhd" \
+      PB ieee/std_logic_1164 1381692176 CD multplica CD setSeg
+PB work/meupacote 1557081523 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/meupacote.vhd" \
+      PH work/meupacote 1557081522
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.vhd" 2019/05/03.19:26:55 P.20131013
+EN work/multplica 1557081524 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/multplica/arch 1557081525 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/multplica.vhd" \
+      EN work/multplica 1557081524
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/setSeg.vhd" 2019/05/03.20:37:44 P.20131013
+EN work/setSeg 1557081526 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/setSeg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/setSeg/arch 1557081527 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/setSeg.vhd" \
+      EN work/setSeg 1557081526
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/top.vhd" 2019/05/05.15:38:39 P.20131013
+EN work/top 1557081528 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB work/meupacote 1557081523
+AR work/top/arch 1557081529 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multiplica/top.vhd" \
+      EN work/top 1557081528 AR work/multplica/arch 1557081525 AR work/setSeg/arch 1557081527
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/multplica/multplica.vhd" 2019/05/03.18:04:35 P.20131013

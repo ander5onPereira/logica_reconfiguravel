@@ -1,0 +1,4 @@
+vhdl work "multplica.vhd"
+vhdl work "meupacote.vhd"
+vhdl work "led.vhd"
+vhdl work "top.vhd"

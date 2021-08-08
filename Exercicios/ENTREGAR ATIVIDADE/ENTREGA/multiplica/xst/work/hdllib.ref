@@ -1,0 +1,8 @@
+EN setseg NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/setSeg.vhd" sub00/vhpl06 1557182752
+EN top NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/top.vhd" sub00/vhpl04 1557182754
+AR top arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/top.vhd" sub00/vhpl05 1557182755
+AR setseg arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/setSeg.vhd" sub00/vhpl07 1557182753
+PB meupacote meupacote "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/meupacote.vhd" sub00/vhpl03 1557182749
+EN multplica NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/multplica.vhd" sub00/vhpl00 1557182750
+AR multplica arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/multplica.vhd" sub00/vhpl01 1557182751
+PH meupacote NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/multiplica/meupacote.vhd" sub00/vhpl02 1557182748

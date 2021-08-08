@@ -1,0 +1,13 @@
+ //portas de entrada
+net A(3) loc=G3;
+net A(2) loc=B4;
+net A(1) loc=K3;
+net A(0) loc=L3;
+
+//led de saida
+net Y(3) loc=N5;
+net Y(2) loc=P6;
+net Y(1) loc=P7;
+net Y(0) loc=M11; 
+
+//acho que é invertido ordem dos Y e A

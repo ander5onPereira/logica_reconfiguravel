@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Keiko-PC/Documents/ISEprojects/Detector-btn-123/btn123.vhd 2019/07/02.20:48:43 P.20131013
+FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/Detector-btn-123/btn123.vhd" 2019/07/06.17:34:17 P.20131013
+EN work/btn123 1562626927 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/Detector-btn-123/btn123.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/btn123/arch 1562626928 \
+      FL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-btn-123/Detector-btn-123/btn123.vhd" \
+      EN work/btn123 1562626927

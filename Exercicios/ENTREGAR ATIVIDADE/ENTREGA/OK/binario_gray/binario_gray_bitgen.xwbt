@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\ENTREGA\binario_gray\binario_gray.ncd
+OUTFILE=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\ENTREGA\binario_gray\binario_gray.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\ENTREGA\binario_gray
+LICENSE=WebPack
+USER_INFO=179504511_180332158_0_034

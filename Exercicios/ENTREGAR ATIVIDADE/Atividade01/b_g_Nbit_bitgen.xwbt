@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\Atividade01\b_g_Nbit.ncd
+OUTFILE=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\Atividade01\b_g_Nbit.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\GIT\logica-reconfiguravel\Exercicios\ENTREGAR ATIVIDADE\Atividade01
+LICENSE=WebPack
+USER_INFO=179504511_180332158_0_034

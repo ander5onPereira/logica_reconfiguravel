@@ -1,0 +1,7 @@
+[Inputs]
+clock
+reset
+=x[2:0]=
+[Outputs]
+y
+[BiDir]

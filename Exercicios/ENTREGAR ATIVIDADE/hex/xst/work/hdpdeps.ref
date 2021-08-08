@@ -1,0 +1,8 @@
+V3 3
+FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hex/hex.vhd" 2019/04/30.19:56:24 P.20131013
+EN work/hex 1556665163 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hex/hex.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/hex/arch 1556665164 \
+      FL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/hex/hex.vhd" \
+      EN work/hex 1556665163

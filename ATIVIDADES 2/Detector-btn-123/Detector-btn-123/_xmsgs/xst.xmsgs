@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">wait_x1</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">pr_st</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">wait_y1</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">pr_st</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">wait_z1</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">pr_st</arg>&gt;.
+</msg>
+
+</messages>
+

@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/ccto_basico2.xst" -ofn "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/ccto_basico2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 ccto_basico2.ngc ccto_basico2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ccto_basico2_map.ncd ccto_basico2.ngd ccto_basico2.pcf 
+par -w -intstyle ise -ol high -t 1 ccto_basico2_map.ncd ccto_basico2.ncd ccto_basico2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ccto_basico2.twx ccto_basico2.ncd -o ccto_basico2.twr ccto_basico2.pcf 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/ccto_basico2.xst" -ofn "D:/GIT/logica-reconfiguravel/atividadeVHDL_01/ccto_basico2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 ccto_basico2.ngc ccto_basico2.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ccto_basico2_map.ncd ccto_basico2.ngd ccto_basico2.pcf 
+par -w -intstyle ise -ol high -t 1 ccto_basico2_map.ncd ccto_basico2.ncd ccto_basico2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ccto_basico2.twx ccto_basico2.ncd -o ccto_basico2.twr ccto_basico2.pcf 

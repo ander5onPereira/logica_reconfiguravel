@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.syr" 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.syr" 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.syr" 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/elevado/elevado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 elevado.ngc elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elevado.ucf -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf -ucf elevado.ucf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elevado.ucf -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf -ucf elevado.ucf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elevado.ucf -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf -ucf elevado.ucf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/elevado/elevado/elevado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elevado.ucf -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf -ucf elevado.ucf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elevado.ucf -p xc3s100e-cp132-4 "elevado.ngc" elevado.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o elevado_map.ncd elevado.ngd elevado.pcf 
+par -w -intstyle ise -ol high -t 1 elevado_map.ncd elevado.ncd elevado.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml elevado.twx elevado.ncd -o elevado.twr elevado.pcf -ucf elevado.ucf 
+bitgen -intstyle ise -f elevado.ut elevado.ncd 

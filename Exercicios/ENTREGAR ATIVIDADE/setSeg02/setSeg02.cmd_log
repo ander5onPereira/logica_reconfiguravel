@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg02/setSeg02.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg02/setSeg02.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg02/setSeg02.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/setSeg02/setSeg02.syr" 

@@ -1,0 +1,1 @@
+vhdtdtfi -prj testSet -o "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/testSet/setSeg.vhi" -module setSeg -template D:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work setSeg.vhd 

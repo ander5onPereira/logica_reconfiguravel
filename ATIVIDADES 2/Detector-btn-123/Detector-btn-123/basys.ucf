@@ -1,0 +1,8 @@
+NET reset LOC = G12; #BTN0 
+NET clock LOC = B8; #CLK
+NET btn(1) LOC = M4; #BTN2
+NET btn(0) LOC = C11; #BTN1
+NET led(3) LOC = P6; #LD3
+NET led(2) LOC = P7; #LD2
+NET led(1) LOC = M11; #LD1
+NET led(0) LOC = M5; #LD0 

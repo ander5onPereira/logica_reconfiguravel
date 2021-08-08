@@ -1,0 +1,17 @@
+PH meu_pacote NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Meu_Pacote.vhd" sub00/vhpl14 1562625092
+AR clock arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" sub00/vhpl03 1562625094
+EN clock NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Clock.vhd" sub00/vhpl02 1562625093
+EN maquina_estado NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" sub00/vhpl04 1562625095
+AR maquina_lavar arq C:/logica/Circuito_Maquina_Lavar/Maquina_Lavar.vhd sub00/vhpl01 1530540061
+AR centrifugacao arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" sub00/vhpl11 1562625102
+EN enxague NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" sub00/vhpl08 1562625099
+EN maquina_lavar NULL C:/logica/Circuito_Maquina_Lavar/Maquina_Lavar.vhd sub00/vhpl00 1530540060
+AR top arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" sub00/vhpl16 1562625106
+AR enxague arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Enxague.vhd" sub00/vhpl09 1562625100
+EN stand_by NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" sub00/vhpl06 1562625097
+EN top NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Top.vhd" sub00/vhpl15 1562625105
+AR maquina_estado arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Maquina_Estado.vhd" sub00/vhpl05 1562625096
+EN centrifugacao NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Centrifugacao.vhd" sub00/vhpl10 1562625101
+AR saida arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" sub00/vhpl13 1562625104
+AR stand_by arq "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Stand_BY.vhd" sub00/vhpl07 1562625098
+EN saida NULL "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/Saida.vhd" sub00/vhpl12 1562625103

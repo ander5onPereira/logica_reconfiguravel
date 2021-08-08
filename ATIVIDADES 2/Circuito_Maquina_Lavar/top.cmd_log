@@ -1,0 +1,94 @@
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/logica/Circuito_Maquina_Lavar/top.xst" -ofn "C:/logica/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "/home/tartari/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.xst" -ofn "C:/Users/Anderson/Downloads/Archive-5c99/IseProjects/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 top.ngc top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/top.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Circuito_Maquina_Lavar/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basys2.ucf -p xc3s100e-cp132-4 "top.ngc" top.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -t 1 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Basys2.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

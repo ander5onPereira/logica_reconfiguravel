@@ -1,0 +1,5 @@
+vhdl work "meupacote.vhd"
+vhdl work "led.vhd"
+vhdl work "erros.vhd"
+vhdl work "divisao.vhd"
+vhdl work "top.vhd"

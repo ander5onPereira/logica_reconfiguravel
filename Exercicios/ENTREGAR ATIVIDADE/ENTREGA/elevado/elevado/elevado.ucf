@@ -1,0 +1,11 @@
+net res(0) loc=M5;
+net res(1) loc=M11;
+net res(2) loc=P7; 
+net res(3) loc=P6;
+net res(4) loc=N5;
+
+net y(0) loc=K3;
+net y(1) loc=B4;
+
+net x(0) loc=P11;
+net x(1) loc=L3;

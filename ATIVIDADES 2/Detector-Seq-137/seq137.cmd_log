@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.syr" 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.syr" 
+vhdtdtfi -lib work seq137.vhd -prj Detector-Seq-137 -o seq137.spl -module seq137 -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3e seq137.spl C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.sym 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.syr" 
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/Detector-Seq-137/seq137.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xa3s100e-cpg132-4 seq137.ngc seq137.ngd  
+map -intstyle ise -p xa3s100e-cpg132-4 -cm area -ir off -pr off -c 100 -o seq137_map.ncd seq137.ngd seq137.pcf 
+par -w -intstyle ise -ol high -t 1 seq137_map.ncd seq137.ncd seq137.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq137.twx seq137.ncd -o seq137.twr seq137.pcf -ucf basys.ucf 
+bitgen -intstyle ise -f seq137.ut seq137.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-Seq-137/seq137.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-Seq-137/seq137.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "seq137.ngc" seq137.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seq137_map.ncd seq137.ngd seq137.pcf 
+par -w -intstyle ise -ol high -t 1 seq137_map.ncd seq137.ncd seq137.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq137.twx seq137.ncd -o seq137.twr seq137.pcf -ucf basys.ucf 
+bitgen -intstyle ise -f seq137.ut seq137.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-Seq-137/seq137.xst" -ofn "D:/GIT/logica-reconfiguravel/ATIVIDADES 2/Detector-Seq-137/seq137.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc basys.ucf -p xc3s100e-cp132-4 "seq137.ngc" seq137.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o seq137_map.ncd seq137.ngd seq137.pcf 
+par -w -intstyle ise -ol high -t 1 seq137_map.ncd seq137.ncd seq137.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq137.twx seq137.ncd -o seq137.twr seq137.pcf -ucf basys.ucf 
+bitgen -intstyle ise -f seq137.ut seq137.ncd 

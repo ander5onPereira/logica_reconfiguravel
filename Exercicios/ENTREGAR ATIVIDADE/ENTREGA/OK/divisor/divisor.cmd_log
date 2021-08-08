@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "C:/Users/Keiko-PC/Documents/ISEprojects/divisor/divisor.xst" -ofn "C:/Users/Keiko-PC/Documents/ISEprojects/divisor/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divisor.ucf -p xc3s100e-cp132-4 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf -ucf divisor.ucf 
+bitgen -intstyle ise -f divisor.ut divisor.ncd 
+bitgen -intstyle ise -f divisor.ut divisor.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divisor.ucf -p xc3s100e-cp132-4 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf -ucf divisor.ucf 
+bitgen -intstyle ise -f divisor.ut divisor.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divisor.ucf -p xc3s100e-cp132-4 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf -ucf divisor.ucf 
+bitgen -intstyle ise -f divisor.ut divisor.ncd 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.syr" 
+xst -intstyle ise -ifn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.xst" -ofn "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/ENTREGA/divisor/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divisor.ucf -p xc3s100e-cp132-4 "divisor.ngc" divisor.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf -ucf divisor.ucf 
+bitgen -intstyle ise -f divisor.ut divisor.ncd 

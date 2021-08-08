@@ -1,0 +1,12 @@
+EN led NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/led.vhd" sub00/vhpl10 1557098886
+AR led arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/led.vhd" sub00/vhpl11 1557098887
+EN setseg NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/setSeg.vhd" sub00/vhpl06 1557098460
+EN deslocaresq NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/multplica.vhd" sub00/vhpl08 1557098884
+EN top NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/top.vhd" sub00/vhpl04 1557098888
+AR top arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/top.vhd" sub00/vhpl05 1557098889
+AR setseg arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/setSeg.vhd" sub00/vhpl07 1557098461
+AR deslocaresq arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/multplica.vhd" sub00/vhpl09 1557098885
+PB meupacote meupacote "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/meupacote.vhd" sub00/vhpl03 1557098883
+EN multplica NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/multplica.vhd" sub00/vhpl00 1557096168
+AR multplica arch "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/multplica.vhd" sub00/vhpl01 1557096169
+PH meupacote NULL "D:/GIT/logica-reconfiguravel/Exercicios/ENTREGAR ATIVIDADE/deslocarEsq/meupacote.vhd" sub00/vhpl02 1557098882

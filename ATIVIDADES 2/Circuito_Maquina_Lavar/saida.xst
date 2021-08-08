@@ -1,0 +1,5 @@
+set -tmpdir "C:/logica/Circuito_Maquina_Lavar/xst/projnav.tmp"
+set -xsthdpdir "C:/logica/Circuito_Maquina_Lavar/xst"
+elaborate
+-ifn saida.prj
+-ifmt mixed
